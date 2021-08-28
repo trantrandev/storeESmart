@@ -48,12 +48,10 @@ Route::middleware('auth')->group(function(){
 	Route::get('admin/page/delete/{id}', 'PageController@delete')->name('page.delete');
 
 	// POST
-	Route::get('admin/post/list', 'PostController@list');
+	Route::resource('postAjax', 'PostController');
 	// catPost
 	Route::get('admin/post/cat/list', 'CatPostController@list');
-
 	Route::post('admin/post/cat/add', 'CatPostController@add')->name('catPost.add');
-	
 	Route::get('admin/post/cat/edit/{id}', 'CatPostController@edit')->name('catPost.edit');
 	Route::put('admin/post/cat/update/{id}', 'CatPostController@update')->name('catPost.update');
 	Route::delete('admin/post/cat/delete/{id}', 'CatPostController@delete')->name('catPost.delete');

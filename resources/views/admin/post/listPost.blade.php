@@ -1,4 +1,4 @@
-@extends('layouts.app');
+@extends('layouts.admin')
 @section('content')
 <div id="content" class="container-fluid">
 	<div class="card">
@@ -52,80 +52,7 @@
 						<td><button class="btn btn-success btn-sm rounded-0" type="button" data-toggle="tooltip" data-placement="top" title="Edit"><i class="fa fa-edit"></i></button>
 							<button class="btn btn-danger btn-sm rounded-0" type="button" data-toggle="tooltip" data-placement="top" title="Delete"><i class="fa fa-trash"></i></button>
 						</td>
-
 					</tr>
-					<tr>
-						<td>
-							<input type="checkbox">
-						</td>
-						<td scope="row">2</td>
-						<td><img src="http://via.placeholder.com/80X80" alt=""></td>
-						<td><a href="#">Xuất hiện ứng dụng ngân hàng Việt Nam leo lên vị trí Top 1 trên App Store</a></td>
-						<td>Tin nóng</td>
-						<td>26:06:2020 14:00</td>
-						<td><button class="btn btn-success btn-sm rounded-0" type="button" data-toggle="tooltip" data-placement="top" title="Edit"><i class="fa fa-edit"></i></button>
-							<button class="btn btn-danger btn-sm rounded-0" type="button" data-toggle="tooltip" data-placement="top" title="Delete"><i class="fa fa-trash"></i></button>
-						</td>
-					</tr>
-					<tr>
-						<td>
-							<input type="checkbox">
-						</td>
-						<td scope="row">3</td>
-						<td><img src="http://via.placeholder.com/80X80" alt=""></td>
-						<td><a href="">Giá xăng sẽ tiếp tục tăng ở mức cao, lần thứ 4 liên tiếp vào ngày mai?</a></td>
-						<td>Tin nóng</td>
-						<td>26:06:2020 14:00</td>
-						<td><button class="btn btn-success btn-sm rounded-0" type="button" data-toggle="tooltip" data-placement="top" title="Edit"><i class="fa fa-edit"></i></button>
-							<button class="btn btn-danger btn-sm rounded-0" type="button" data-toggle="tooltip" data-placement="top" title="Delete"><i class="fa fa-trash"></i></button>
-						</td>
-
-					</tr>
-					<tr>
-						<td>
-							<input type="checkbox">
-						</td>
-						<td>4</td>
-						<td><img src="http://via.placeholder.com/80X80" alt=""></td>
-						<td><a href="">Xuất hiện ứng dụng ngân hàng Việt Nam leo lên vị trí Top 1 trên App Store</a></td>
-						<td>Tin nóng</td>
-						<td>26:06:2020 14:00</td>
-						<td><button class="btn btn-success btn-sm rounded-0" type="button" data-toggle="tooltip" data-placement="top" title="Edit"><i class="fa fa-edit"></i></button>
-							<button class="btn btn-danger btn-sm rounded-0" type="button" data-toggle="tooltip" data-placement="top" title="Delete"><i class="fa fa-trash"></i></button>
-						</td>
-					</tr>
-					<tr>
-						<td>
-							<input type="checkbox">
-						</td>
-						<td scope="row">5</td>
-						<td><img src="http://via.placeholder.com/80X80" alt=""></td>
-
-						<td><a href="">Giá xăng sẽ tiếp tục tăng ở mức cao, lần thứ 4 liên tiếp vào ngày mai?</a></td>
-						<td>Tin nóng</td>
-						<td>26:06:2020 14:00</td>
-						<td><button class="btn btn-success btn-sm rounded-0" type="button" data-toggle="tooltip" data-placement="top" title="Edit"><i class="fa fa-edit"></i></button>
-							<button class="btn btn-danger btn-sm rounded-0" type="button" data-toggle="tooltip" data-placement="top" title="Delete"><i class="fa fa-trash"></i></button>
-						</td>
-
-					</tr>
-					<tr>
-						<td>
-							<input type="checkbox">
-						</td>
-						<td scope="row">6</td>
-
-						<td><img src="http://via.placeholder.com/80X80" alt=""></td>
-
-						<td><a href="#">Xuất hiện ứng dụng ngân hàng Việt Nam leo lên vị trí Top 1 trên App Store</a></td>
-						<td>Tin nóng</td>
-						<td>26:06:2020 14:00</td>
-						<td><button class="btn btn-success btn-sm rounded-0" type="button" data-toggle="tooltip" data-placement="top" title="Edit"><i class="fa fa-edit"></i></button>
-							<button class="btn btn-danger btn-sm rounded-0" type="button" data-toggle="tooltip" data-placement="top" title="Delete"><i class="fa fa-trash"></i></button>
-						</td>
-					</tr>
-
-
 				</tbody>
 			</table>
 			<nav aria-label="Page navigation example">

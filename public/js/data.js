@@ -145,7 +145,9 @@ $(document).ready(function() {
 
 					//cập nhật select option
 					$('#select-cat').children('option[value='+response.id+']').text(str_level+response.cat.name);
-					
+					//show status thanh cong ra
+					console.log(response.status);
+					$('#show-status').html(response.status);
 				}else{
 					$('#error-name').remove();
 					$(response.message).insertAfter('#name');

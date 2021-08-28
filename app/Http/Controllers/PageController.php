@@ -12,7 +12,7 @@ class PageController extends Controller
 		$this->middleware(function($request, $next){
 			session(['module_active' => 'page']);
 			return $next($request);
-		});
+		});		
 	}
 
 	function list() {
